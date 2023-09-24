@@ -13,7 +13,22 @@ const Footer = () => {
                         <a href='#about'>About</a>
                     </li>
                     <li className='nav-item'>
+                        <a href='#about'>Education</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#about'>Skills</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#about'>Internships</a>
+                    </li>
+                    <li className='nav-item'>
                         <a href='#projects'>Projects</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#about'>Workshops</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#activities'>Activities</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#demo'>Demo</a>
