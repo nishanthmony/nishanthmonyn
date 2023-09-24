@@ -10,7 +10,7 @@ export const Internships = () => {
           <div className='card'>
             <p><span>HCL</span></p>
             <p>M.E. - Computer Science & Engineering</p>
-            <p><span>Role : </span>Data Analysy Jr</p>
+            <p><span>Role : </span>Data Analyst Jr</p>
             <p><span>Skills : </span>Python, Data Science, Machine Learning, Mathematics, Application Development</p>
             <p><span>Year of Passing :</span>24 July 2023 to 26 Aug 2023</p>
           </div>
