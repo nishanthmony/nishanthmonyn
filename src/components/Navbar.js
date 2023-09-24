@@ -12,9 +12,9 @@ const Navbar = () => {
   return (
     <div className="header">
       <nav className="navbar">
-        <a href="/" className="nav-item" style={{ color: "white" }}>
+        <Link href="/" className="nav-item" style={{ color: "white" }}>
           <p>Nishanth Mony N</p>
-        </a>
+        </Link>
         <div className="hamburger" onClick={handleClick}>
           {click ? (
             <FaTimes size={30} style={{ color: "#ffffff" }} />
