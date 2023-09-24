@@ -23,7 +23,7 @@ export const Internships = () => {
           </div>
           <div className='card'>
             <p><span>BSNL</span></p>
-            <p>12th | CBSE</p>
+            <p>B.E. - Computer Science & Engineering</p>
             <p><span>Role : </span>General Trainee</p>
             <p><span>Skills : </span>Telecommunication, Network Communication</p>
             <p><span>Duration :</span>20 Jan 2020 to 25 Jan 2020</p>
