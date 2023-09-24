@@ -7,7 +7,7 @@ export const Skills = () => {
     
     <section>
       <div className='testimonials'>
-        <div className='container' id='skills' style={{width:'450px'}}>
+        <div className='container' id='skills' style={{width:'320px'}}>
           <h1 className='heading1'>Technical Skills</h1>
           <div className='Technical-bars'>
             <div className='bar'><FaPython color='blue'/>
