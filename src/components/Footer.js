@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import { Link } from 'react-scroll'
 
 const Footer = () => {
     return (
@@ -7,28 +8,22 @@ const Footer = () => {
             <div className='container'>
                 <ul>
                     <li className='nav-item'>
-                        <a href='/'>Home</a>
+                        <Link to='about' spy={true} smooth={true} offset={50} duration={500}>About</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about'>About</a>
+                        <Link to="education" spy={true} smooth={true} offset={50} duration={500}>Education</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about'>Education</a>
+                        <Link to='skills' spy={true} smooth={true} offset={50} duration={500}>Skills</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about'>Skills</a>
+                        <Link to='about' spy={true} smooth={true} offset={50} duration={500}>Internships</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about'>Internships</a>
+                        <Link to='projects' spy={true} smooth={true} offset={50} duration={500}>Projects</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#projects'>Projects</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#activities'>Activities</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#demo'>Demo</a>
+                        <Link to='demo' spy={true} smooth={true} offset={50} duration={500}>Demo</Link>
                     </li>
                 </ul>
                 <div className='bottom'>
