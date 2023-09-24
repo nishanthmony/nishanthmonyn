@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Workshops = () => {
   return (
-    <div className='testimonials' id='education'>
+    <div className='testimonials' id='workshops'>
       <div className='container'>
         <h2>Workshops</h2>
         <span className='line'></span>

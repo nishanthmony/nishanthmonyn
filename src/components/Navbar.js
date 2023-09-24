@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-
+import { Link } from 'react-scroll'
 import './navbar.css'
 
 const Navbar = () => {
@@ -23,31 +23,31 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <a href='/' onClick={closeMenu}>Home</a>
+                        <Link to='hero' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Home</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about' onClick={closeMenu}>About</a>
+                        <Link to='about' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>About</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#education' onClick={closeMenu}>Education</a>
+                        <Link to='education' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Education</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#skills' onClick={closeMenu}>Skills</a>
+                        <Link to='skills' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Skills</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#internships' onClick={closeMenu}>Internships</a>
+                        <Link to='internships' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Internships</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#projects' onClick={closeMenu}>Projects</a>
+                        <Link to='projects' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Projects</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#workshops' onClick={closeMenu}>Workshops</a>
+                        <Link to='workshops' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Workshops</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#activities' onClick={closeMenu}>Activities</a>
+                        <Link to='activities' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Activities</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#demo' onClick={closeMenu}>Demo</a>
+                        <Link to='demo' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Demo</Link>
                     </li>
                 </ul>
             </nav>

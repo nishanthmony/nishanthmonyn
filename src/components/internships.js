@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Internships = () => {
   return (
-    <div className='testimonials' id='education'>
+    <div className='testimonials' id='internships'>
       <div className='container'>
         <h2>Internships</h2>
         <span className='line'></span>
@@ -12,7 +12,7 @@ export const Internships = () => {
             <p>M.E. - Computer Science & Engineering</p>
             <p><span>Role : </span>Data Analyst Jr</p>
             <p><span>Skills : </span>Python, Data Science, Machine Learning, Mathematics, Application Development</p>
-            <p><span>Year of Passing :</span>24 July 2023 to 26 Aug 2023</p>
+            <p><span>Duration :</span>24 July 2023 to 26 Aug 2023</p>
           </div>
           <div className='card'>
             <p><span>The Dairing Company</span></p>
