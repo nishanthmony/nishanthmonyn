@@ -11,7 +11,7 @@ export const Skills = () => {
         <br></br><br></br><br></br>
           <h1 className='heading1'>Technical Skills</h1>
           <div className='Technical-bars'>
-            <div className='bar'><FaPython color='blue'/>
+            <div className='bar'><FaPython />
               <div className='info'>
                 <span>Python</span>
               </div>
@@ -20,7 +20,7 @@ export const Skills = () => {
               </div>
               <br></br>
             </div>
-            <div className='bar'><FaReact color='darkblue'/>
+            <div className='bar'><FaReact />
               <div className='info'>
                 <span>React JS</span>
               </div>
@@ -28,7 +28,7 @@ export const Skills = () => {
                 <span></span>
               </div><br></br>
             </div>
-            <div className='bar'><FaDatabase color='black'/>
+            <div className='bar'><FaDatabase />
               <div className='info'>
                 <span>Data Science</span>
               </div>
@@ -36,7 +36,7 @@ export const Skills = () => {
                 <span></span>
               </div><br></br>
             </div>
-            <div className='bar'><FaDatabase color='black' />
+            <div className='bar'><FaDatabase />
               <div className='info'>
                 <span>Deep Learning</span>
               </div>
@@ -44,7 +44,7 @@ export const Skills = () => {
                 <span></span>
               </div><br></br>
             </div>
-            <div className='bar'><FaDev color='grey'/>
+            <div className='bar'><FaDev />
               <div className='info'>
                 <span>Web Application Development</span>
               </div>

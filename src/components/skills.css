@@ -52,7 +52,7 @@ section{
 }
 .Technical-bars .bar .progress-line span{
     height: 100%;
-    background-color: #0ef;
+    background-color: var(--primary-color);
     position: absolute;
     border-radius: 10px;
 }
