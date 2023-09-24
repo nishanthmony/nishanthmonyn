@@ -17,6 +17,7 @@ export const Skills = () => {
               <div className='progress-line Python'>
                 <span></span>
               </div>
+              <br></br>
             </div>
             <div className='bar'><FaReact color='darkblue'/>
               <div className='info'>
@@ -24,7 +25,7 @@ export const Skills = () => {
               </div>
               <div className='progress-line ReactJS'>
                 <span></span>
-              </div>
+              </div><br></br>
             </div>
             <div className='bar'><FaDatabase color='black'/>
               <div className='info'>
@@ -32,7 +33,7 @@ export const Skills = () => {
               </div>
               <div className='progress-line DataScience'>
                 <span></span>
-              </div>
+              </div><br></br>
             </div>
             <div className='bar'><FaDatabase color='black' />
               <div className='info'>
@@ -40,7 +41,7 @@ export const Skills = () => {
               </div>
               <div className='progress-line DeepLearning'>
                 <span></span>
-              </div>
+              </div><br></br>
             </div>
             <div className='bar'><FaDev color='grey'/>
               <div className='info'>
