@@ -6,8 +6,11 @@ section{
 .container1{
     width: 600px;
     height: 500px;
-    padding: 75px 90px;
-    margin-left: 120px;
+    padding: 75px;
+    align-content: center;
+    /*padding: 75px 90px;
+    margin-left: 120px;*/
+    align-items: center;
 }
 
 .heading1{
@@ -19,7 +22,7 @@ section{
 }
 
 .bar{
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .Technical-bars .bar{

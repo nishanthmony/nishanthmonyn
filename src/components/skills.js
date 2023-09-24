@@ -6,51 +6,54 @@ export const Skills = () => {
   return (
     
     <section>
-    <div className='container1' id='skills'>
-      <h1 className='heading1'>Technical Skills</h1>
-      <div className='Technical-bars'>
-        <div className='bar'><FaPython color='blue'/>
-          <div className='info'>
-            <span>Python</span>
-          </div>
-          <div className='progress-line Python'>
-            <span></span>
-          </div>
-        </div>
-        <div className='bar'><FaReact color='darkblue'/>
-          <div className='info'>
-            <span>React JS</span>
-          </div>
-          <div className='progress-line ReactJS'>
-            <span></span>
-          </div>
-        </div>
-        <div className='bar'><FaDatabase color='black'/>
-          <div className='info'>
-            <span>Data Science</span>
-          </div>
-          <div className='progress-line DataScience'>
-            <span></span>
-          </div>
-        </div>
-        <div className='bar'><FaDatabase color='black' />
-          <div className='info'>
-            <span>Deep Learning</span>
-          </div>
-          <div className='progress-line DeepLearning'>
-            <span></span>
-          </div>
-        </div>
-        <div className='bar'><FaDev color='grey'/>
-          <div className='info'>
-            <span>Web Application Development</span>
-          </div>
-          <div className='progress-line WebApplicationDevelopment'>
-            <span></span>
+      <div className='testimonials'>
+        <div className='container' id='skills' style={{width:'450px'}}>
+          <h1 className='heading1'>Technical Skills</h1>
+          <div className='Technical-bars'>
+            <div className='bar'><FaPython color='blue'/>
+              <div className='info'>
+                <span>Python</span>
+              </div>
+              <div className='progress-line Python'>
+                <span></span>
+              </div>
+            </div>
+            <div className='bar'><FaReact color='darkblue'/>
+              <div className='info'>
+                <span>React JS</span>
+              </div>
+              <div className='progress-line ReactJS'>
+                <span></span>
+              </div>
+            </div>
+            <div className='bar'><FaDatabase color='black'/>
+              <div className='info'>
+                <span>Data Science</span>
+              </div>
+              <div className='progress-line DataScience'>
+                <span></span>
+              </div>
+            </div>
+            <div className='bar'><FaDatabase color='black' />
+              <div className='info'>
+                <span>Deep Learning</span>
+              </div>
+              <div className='progress-line DeepLearning'>
+                <span></span>
+              </div>
+            </div>
+            <div className='bar'><FaDev color='grey'/>
+              <div className='info'>
+                <span>Web Application Development</span>
+              </div>
+              <div className='progress-line WebApplicationDevelopment'>
+                <span></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    
     {/*
     <div className='container1'>
       <h1 className='heading1'>Skills</h1>
