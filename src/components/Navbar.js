@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <div className='header'>
             <nav className='navbar'>
-                <a href='/' className='nav-item'>
+                <a href='/' className='nav-item' style={{color:'white'}}>
                     <p>Nishanth Mony N</p>
                 </a>
                 <div className='hamburger' onClick={handleClick}>

@@ -9,7 +9,7 @@ export const Workshops = () => {
         <div className='content'>
           <div className='card'>
             <p><span>Webinar on Deep Learning</span></p>
-            <p>M.E. - Computer Science & Engineering</p>
+            <p>B.E. - Computer Science & Engineering</p>
             <p><span>Institute : </span>SRM Institute of Science and Technology</p>
             <p><span>Skills : </span>Deep Learning</p>
             <p><span>Date :</span>09 Nov 2020</p>

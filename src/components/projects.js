@@ -33,8 +33,8 @@ const Projects = () => {
                         <p><span>Project Link : </span><a href='https://lambent-cascaron-72d4c6.netlify.app/' target="_blank" rel='noreferrer'>Fruit - O - Licious</a></p>
                     </div>
                     <div className='card'>
-                        <p><span> Plant Disease Prediction usin Deep Learning and Image Processing</span></p>
-                        <p>It is an internal funded project from our college SSN College of Engineering.To predict the type of plant disease using machine learning in real time using Drones for capturing and process using ML Algorithms. Currently doing this project.</p>
+                        <p><span> Plant Disease Prediction using Deep Learning and Image Processing</span></p>
+                        <p>It is an internal funded project from SSN College of Engineering.To predict the type of plant disease using machine learning in real time using Drones for capturing and process using ML Algorithms. Currently doing this project.</p>
                         <p><span>Key Skills :</span> Deep Learning, Machine Learning, Image Processing, Drone Handling, Iot`</p>
                     </div>
                     <div className='card'>
