@@ -7,6 +7,7 @@ import './projects.css'
 const Projects = () => {
     return (
         <div className='testimonials' id='projects'>
+            <br></br>
             <div className='container'>
                 <h2>Projects</h2>
                 <span className='line'></span>

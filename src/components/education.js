@@ -3,6 +3,7 @@ import React from 'react'
 export const Education = () => {
   return (
     <div className='testimonials' id='education'>
+      <br></br>
       <div className='container'>
         <h2>Education</h2>
         <span className='line'></span>

@@ -25,9 +25,6 @@ const Footer = () => {
                         <a href='#projects'>Projects</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about'>Workshops</a>
-                    </li>
-                    <li className='nav-item'>
                         <a href='#activities'>Activities</a>
                     </li>
                     <li className='nav-item'>
@@ -36,7 +33,7 @@ const Footer = () => {
                 </ul>
                 <div className='bottom'>
                     <span className='line'></span>
-                    <p>2020 Execute, Inc. All rights reserved</p>
+                    <p>2023 All rights reserved</p>
                 </div>
             </div>
         </div>

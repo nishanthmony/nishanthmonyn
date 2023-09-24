@@ -3,6 +3,7 @@ const Cocurricular = () => {
   return (
     <>
     <div className='testimonials' id='activities'>
+    <br></br>
       <div className='container'>
         <h2>Activities</h2>
         <span className='line'></span>

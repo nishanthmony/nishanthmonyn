@@ -41,9 +41,6 @@ const Navbar = () => {
                         <Link to='projects' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Projects</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='workshops' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Workshops</Link>
-                    </li>
-                    <li className='nav-item'>
                         <Link to='activities' spy={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>Activities</Link>
                     </li>
                     <li className='nav-item'>
