@@ -10,6 +10,7 @@ import { Skills } from './components/skills'
 import { Internships } from './components/internships'
 import { Workshops } from './components/workshops'
 import Cocurricular from './components/cocurricular'
+import Contact from './components/contactme'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Workshops />
       <Cocurricular />
       <Demo />
+      <Contact />
       <Footer />
     </div>
   );
