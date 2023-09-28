@@ -52,7 +52,7 @@ const Navbar = () => {
               to="skills"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-100}
               duration={500}
               onClick={closeMenu}
             >
@@ -88,7 +88,7 @@ const Navbar = () => {
               to="demo"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-100}
               duration={500}
               onClick={closeMenu}
             >
