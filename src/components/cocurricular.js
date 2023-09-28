@@ -3,29 +3,33 @@ const Cocurricular = () => {
   return (
     <>
     <div className='testimonials' id='activities'>
-    <br></br>
       <div className='container'>
         <h2>Activities</h2>
         <span className='line'></span>
+      <div className='content'>
+        <div className='card'>
+          <h3>Co-Curricular</h3>
+          <p><ul style={{listStyleType: 'number'}}>
+            <li>Photoshop</li>
+            <li>Digital Sketch</li>
+            <li>Pencil Sketch</li>
+          </ul></p>
+        </div>
+        <div className='card'>
+          <h3>Sports</h3>
+          <p><ul style={{listStyleType: 'number'}}>
+            <li>Badminton</li>
+            <li>Cricket</li>
+          </ul></p>
+        </div>
+        <div className='card'>
+          <h3>Extra curricular Activities</h3>
+          <p><ul style={{listStyleType: 'number'}}>
+            <li>karate</li>
+            <li>silambam</li>
+          </ul></p>
+        </div>
       </div>
-    </div>
-    <div className='demo'>
-      <div className='col-1'>
-        <p></p>
-        <h2>Co-Curricular</h2>
-        <p><ul style={{listStyleType: 'disc'}}>
-          <li>Karate Black Belt</li>
-          <li>Silambam</li>
-          <li>Digital Sketch</li>
-          <li>Pencil Sketch</li>
-        </ul></p>
-      </div>
-      <div className='col-2'>
-        <h2>Sports</h2>
-        <p><ul style={{listStyleType: 'disc'}}>
-          <li style={{alignContent:'center'}}>Badminton</li>
-          <li style={{alignContent:'center'}}>Cricket</li>
-        </ul></p>
       </div>
     </div>
     </>

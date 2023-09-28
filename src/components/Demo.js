@@ -4,6 +4,8 @@ import './demo.css'
 const Demo = () => {
     return (
         <div className='demo' id='demo'>
+            <div className='testimonials'><h2>My Project Demo</h2></div>
+            <span className='line'></span>
             <br></br>
             <div className='container'> 
                 <div className='col-1'>

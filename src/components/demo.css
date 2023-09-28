@@ -44,6 +44,10 @@
     margin: auto;
 }
 
+.testimonials .demo .col-2{
+    margin: auto 10rem;
+}
+
 
 @media screen and (max-width: 940px) {
     .demo .container {
