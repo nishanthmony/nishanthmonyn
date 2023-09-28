@@ -12,7 +12,12 @@ const Navbar = () => {
   return (
     <div className="header">
       <nav className="navbar">
-        <Link href="/" className="nav-item" style={{ color: "white" }}>
+        <Link to="hero" className="nav-item" style={{ color: "white" }} 
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}>
           <p>Nishanth Mony N</p>
         </Link>
         <div className="hamburger" onClick={handleClick}>

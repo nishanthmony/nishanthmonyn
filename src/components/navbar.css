@@ -41,6 +41,10 @@
     padding-bottom: 12px;
     border-bottom: 3px solid var(--primary-dark);
 }
+.header .navbar a:hover {
+    padding-bottom: 12px;
+    cursor: pointer;
+}
 .header .nav-item a:hover {
     padding-bottom: 12px;
     border-bottom: 3px solid var(--primary-dark);
