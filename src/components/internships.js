@@ -1,6 +1,15 @@
 import React from 'react'
 
 export const Internships = () => {
+  /* 
+  <div className='card'>
+            <p><span>The Dairing Company</span></p>
+            <p>B.E. - Computer Science & Engineering</p>
+            <p><span>Role : </span>IOS Developer Intern</p>
+            <p><span>Skills : </span>IOS App Development</p>
+            <p><span>Duration :</span>5 Nov 2021 to 4 Feb 2022</p>
+          </div>
+  */
   return (
     <div className='testimonials' id='internships'>
       <br></br>
@@ -14,13 +23,6 @@ export const Internships = () => {
             <p><span>Role : </span>Data Analyst Jr</p>
             <p><span>Skills : </span>Python, Data Science, Machine Learning, Mathematics, Application Development</p>
             <p><span>Duration :</span>24 July 2023 to 26 Aug 2023</p>
-          </div>
-          <div className='card'>
-            <p><span>The Dairing Company</span></p>
-            <p>B.E. - Computer Science & Engineering</p>
-            <p><span>Role : </span>IOS Developer Intern</p>
-            <p><span>Skills : </span>IOS App Development</p>
-            <p><span>Duration :</span>5 Nov 2021 to 4 Feb 2022</p>
           </div>
           <div className='card'>
             <p><span>BSNL</span></p>
