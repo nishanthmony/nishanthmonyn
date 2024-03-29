@@ -18,6 +18,20 @@ export const Internships = () => {
         <span className='line'></span>
         <div className='content'>
           <div className='card'>
+            <p><span>Monexo Fintech Pvt Ltd</span></p>
+            <p>M.E. - Computer Science & Engineering</p>
+            <p><span>Role : </span>Software Developer Trainee</p>
+            <p><span>Skills : </span>React Native, Mobile Application Development, API Integration, Node Js, Middleware and Backend.</p>
+            <p><span>Duration :</span>4 March 2024 to 31 May 2024</p>
+          </div>
+          <div className='card'>
+            <p><span>Pikture Associates Pvt Ltd</span></p>
+            <p>M.E. - Computer Science & Engineering</p>
+            <p><span>Role : </span>Junior React Native Developer Trainee</p>
+            <p><span>Skills : </span>React Native, Mobile Application Development, API Integration, Javascript</p>
+            <p><span>Duration :</span>24 July 2023 to 26 Aug 2023</p>
+          </div>
+          <div className='card'>
             <p><span>HCL</span></p>
             <p>M.E. - Computer Science & Engineering</p>
             <p><span>Role : </span>Data Analyst Jr</p>

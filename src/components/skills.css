@@ -57,19 +57,25 @@ section{
     border-radius: 10px;
 }
 .progress-line.Python span{
-    width: 90%;
+    width: 70%;
 }
 .progress-line.ReactJS span{
     width: 65%;
 }
 .progress-line.DataScience span{
-    width: 65%;
+    width: 45%;
 }
 .progress-line.DeepLearning span{
-    width: 65%;
+    width: 50%;
 }
 .progress-line.WebApplicationDevelopment span{
     width: 70%;
+}
+.progress-line.ReactNative span{
+    width: 80%;
+}
+.progress-line.NodeJS span{
+    width: 50%;
 }
 
 .radial-bars{

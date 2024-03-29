@@ -1,6 +1,6 @@
 import React from 'react'
 import './skills.css'
-import { FaReact, FaPython,FaDev,FaDatabase } from 'react-icons/fa'
+import { FaReact, FaPython,FaDev,FaDatabase, FaNodeJs } from 'react-icons/fa'
 
 export const Skills = () => {
   return (
@@ -10,11 +10,20 @@ export const Skills = () => {
         <div className='container' id='skills' style={{width:'320px'}}>
           <h1 className='heading1'>Technical Skills</h1>
           <div className='Technical-bars'>
-            <div className='bar'><FaPython />
+            <div className='bar'><FaReact />
               <div className='info'>
-                <span>Python</span>
+                <span>React Native</span>
               </div>
-              <div className='progress-line Python'>
+              <div className='progress-line ReactNative'>
+                <span></span>
+              </div>
+              <br></br>
+            </div>
+            <div className='bar'><FaNodeJs />
+              <div className='info'>
+                <span>Backend Node Server</span>
+              </div>
+              <div className='progress-line NodeJS'>
                 <span></span>
               </div>
               <br></br>
@@ -26,6 +35,15 @@ export const Skills = () => {
               <div className='progress-line ReactJS'>
                 <span></span>
               </div><br></br>
+            </div>
+            <div className='bar'><FaPython />
+              <div className='info'>
+                <span>Python</span>
+              </div>
+              <div className='progress-line Python'>
+                <span></span>
+              </div>
+              <br></br>
             </div>
             <div className='bar'><FaDatabase />
               <div className='info'>

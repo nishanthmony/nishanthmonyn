@@ -11,7 +11,7 @@ export const Education = () => {
           <div className='card'>
             <p><span>Sri Sivasubramaniya Nadar College of Engineering</span></p>
             <p>M.E. - Computer Science & Engineering</p>
-            <p><span>CGPA : </span>7.42 / 10.00</p>
+            <p><span>CGPA : </span>7.84 / 10.00</p>
             <p><span>Year of Passing :</span>2022 - 2024</p>
           </div>
           <div className='card'>

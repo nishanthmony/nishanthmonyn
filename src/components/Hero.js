@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="content">
         <p>Hi, I am</p>
         <p>Nishanth Mony N</p>
-        <p>React Developer</p>
+        <p>React Native Full Stack Developer</p>
         <p></p>
         <button className="button">
           <Link
